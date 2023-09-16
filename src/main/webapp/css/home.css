@@ -1,0 +1,10 @@
+body{
+    background-color: pink;
+    padding: auto;
+}
+button{
+    background-color: aquamarine;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;;
+}
