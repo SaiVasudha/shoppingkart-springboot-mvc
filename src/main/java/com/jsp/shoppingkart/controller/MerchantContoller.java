@@ -13,4 +13,9 @@ public class MerchantContoller {
     {
       return "MerchantLogin"; 
     }
+    @GetMapping("/signup")
+    public String merchantSignUp()
+    {
+      return "MerchantSignup";
+    }
 }

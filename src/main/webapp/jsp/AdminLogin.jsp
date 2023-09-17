@@ -8,9 +8,10 @@
 <body>
     <h1>Admin Login...</h1>
     <form action="">
-        Name: <input type="text" value="">
-        Password: <input type="password" value="">
-        
+        Username: <input type="text" value=""><br><br>
+        Password: <input type="password" value=""><br><br>
+    <button>Login</button> 
+    <button>Cancel</button><br><br>
     </form>
 </body>
 </html>

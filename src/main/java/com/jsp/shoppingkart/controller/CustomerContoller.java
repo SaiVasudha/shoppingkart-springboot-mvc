@@ -14,5 +14,11 @@ public class CustomerContoller {
     {
         return "CustomerLogin";
     }
+
+    @GetMapping("/signup")
+    public String customerSignup()
+    {
+        return "CustomerSignup";
+    }
     
 }

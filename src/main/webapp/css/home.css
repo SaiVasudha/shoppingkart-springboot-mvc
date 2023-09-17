@@ -1,6 +1,9 @@
 body{
     background-color: pink;
-    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 button{
     background-color: aquamarine;
