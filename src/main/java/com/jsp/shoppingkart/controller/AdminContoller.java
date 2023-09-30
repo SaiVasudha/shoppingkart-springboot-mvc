@@ -12,4 +12,10 @@ public class AdminContoller {
     {
         return "AdminLogin";
     }
+
+    @GetMapping("/home")
+    public String adminHome()
+    {
+       return "AdminHome";
+    }
 }

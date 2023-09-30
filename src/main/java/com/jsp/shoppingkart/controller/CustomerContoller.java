@@ -21,4 +21,9 @@ public class CustomerContoller {
         return "CustomerSignup";
     }
     
+    @GetMapping("/home")
+    public String customerHome()
+    {
+        return "CustomerHome";
+    }
 }

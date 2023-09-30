@@ -9,6 +9,7 @@
 <body>
     <div>
     <h1>Home page</h1>
+    <div>
     <a href="/admin/login"><button>Admin</button></a> <br><br>
     <a href="/merchant/login"><button>Merchant</button></a> <br><br>
     <a href="/customer/login"><button>Customer</button></a> <br><br>

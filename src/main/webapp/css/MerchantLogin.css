@@ -1,0 +1,85 @@
+/* Apply some basic styling to the entire form container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the fieldset container */
+fieldset {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+/* Style the legend */
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Style the form title */
+h2 {
+    margin: 0;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+}
+
+/* Style input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* Style the buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style form elements on hover */
+a:hover button {
+    background-color: #0056b3;
+}
+
+/* Style the signup link */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the signup link on hover */
+a:hover {
+    text-decoration: underline;
+}
