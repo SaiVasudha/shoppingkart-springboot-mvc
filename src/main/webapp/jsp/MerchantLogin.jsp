@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="../css/MerchantLogin.css">
 </head>
 <body>
-    <fieldset>
-        <legend><h2>Merchant Login</h2></legend>
-    <form action="">
+    
+    <h1>Merchant Login</h1>
+    <form action="/merchant/login" method="post">
+        <h3 style="color: green;">${pass}</h3>
+        <h2 style="color: red">${fail}</h2>
     <table>
         <tr>
             <td>UserName:</td>
-            <td><input type="text" value=""></td>
+            <td><input type="text" name="email"></td>
         </tr>
         <tr>
             <td>Password</td>
-            <td><input type="text" value=""></td>
+            <td><input type="password" name="pwd"></td>
         </tr>
         <tr>
             <td><a href="/merchant/home"><button>Login</button></a></td>
@@ -26,6 +28,21 @@
     </table>
     Don't Have Account? please <a href="/merchant/signup">SignUp</a>
     </form>
-</fieldset>
+    <a href="/"><button>Back</button></a>
+
+
+<script>
+    setTimeout(function () {
+        var h2Element = document.querySelector("h2");
+        var h3Element = document.querySelector("h3");
+        if (h2Element) {
+            h2Element.style.display = "none";
+        }
+        if (h3Element) {
+            h3Element.style.display = "none";
+        }
+    }, 1000);
+</script>
+
 </body>
 </html>

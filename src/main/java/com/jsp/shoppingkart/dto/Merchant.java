@@ -1,5 +1,7 @@
 package com.jsp.shoppingkart.dto;
 
+import java.time.LocalDate;
+
 import org.springframework.stereotype.Component;
 
 import jakarta.persistence.Entity;
@@ -18,7 +20,8 @@ public class Merchant {
        private String  name;
        private String email ;
        private long mobileno;
-       private  String pwd;
+       private LocalDate dob;
+       private String pwd;
        private int otp;
-       private String verfiedOtp;
+       private boolean verfied;
 }

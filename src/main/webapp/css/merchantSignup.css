@@ -1,59 +1,84 @@
-/* Apply some basic styling to the form container */
-form {
-    width: 400px;
-    margin: 0 auto;
+/* Style the form container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
     padding: 20px;
+}
+
+/* Style the form header */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the form */
+form {
+    background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style headings */
-h1 {
-    text-align: center;
+/* Style the error message */
+h2 {
+    color: red;
+    margin-top: 10px;
 }
 
-/* Style table and table cells */
+/* Style the form elements */
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
 }
 
-td {
+table tr td {
     padding: 10px;
+    text-align: right;
 }
 
-/* Style form input fields and buttons */
 input[type="text"],
 input[type="email"],
 input[type="number"],
+input[type="date"],
 input[type="password"] {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    outline: none;
 }
 
+/* Style the signup button */
 button {
-    display: block;
-    width: 100%;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-/* Style form elements on focus */
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="password"]:focus {
-    border: 1px solid #007bff;
-    box-shadow: 0 0 5px #007bff;
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the "Back" button */
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a button {
+    background-color: #ccc;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+a button:hover {
+    background-color: #999;
 }
